@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Georgia, serif';
+}
+
+/* Navbar Styles */
+/* .navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px 20px;
+  z-index: 1000;
+} */
+
+/* .navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff !important;
+} */
+
+/* .navbar-nav .nav-link {
+  font-size: 18px;
+  color: #fff !important;
+  transition: color 0.3s ease;
+} */
+
+/* .navbar-nav .nav-link:hover {
+  color: #ddd !important;
+} */
+
+/* Carousel Styling */
+/* .carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+} */
+
+/* Body Padding */
+/* body {
+  padding-top: 70px; 
+} */
+
+/* Add some padding to the top of the page to avoid content being hidden behind the navbar */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 20px;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 16px;
+  }
+
+  .carousel-item {
+    height: 70vh;
+  }
+
+  .carousel-caption h3 {
+    font-size: 24px;
+  }
+
+  .carousel-caption p {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,45 @@
+.about-us {
+    text-align: center;
+    padding: 3rem; /* Increased padding for better spacing */
+    background-color: #f8f8f8;
+    min-height: 400px; /* Minimum height for the about section */
+    border-radius: 10px; /* Rounded corners for a softer look */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 800px; /* Set a maximum width for better layout */
+    margin: 2rem auto;
+    margin-top: 4rem;
+     /* Centering the About Us box */
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.about-description {
+    max-width: 700px; /* Increased max-width for better readability */
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #e67e22; /* Attractive color for the heading */
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #e74c3c; /* Attractive color for the subheading */
+}
+p{
+    font-weight: bold;
+}
+.Footer{
+    margin-top: -40px;
+}

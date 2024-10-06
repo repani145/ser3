@@ -1,0 +1,155 @@
+/* Auth Container */
+.auth-container {
+  margin: 10% auto;
+  background-color: #fff;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+input[type="email"], input[type="password"] {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+  transition: border-color 0.3s;
+}
+
+input[type="email"]:focus, input[type="password"]:focus {
+  border-color: #007bff;
+}
+
+/* Button Styling */
+button[type="submit"] {
+  padding: 10px;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+
+/* Large screens (desktops, 1200px and up) */
+@media (max-width: 1200px) {
+  .auth-container {
+    max-width: 70%;
+  }
+}
+
+/* Medium screens (tablets, 992px and up) */
+@media (max-width: 992px) {
+  .auth-container {
+    max-width: 50%;
+  }
+
+  label {
+    font-size: 1.2em;
+  }
+
+  button[type="submit"] {
+    font-size: 1.2em;
+  }
+}
+
+/* Small screens (larger phones, 768px and up) */
+@media (max-width: 768px) {
+  .auth-container {
+    margin-top:20%;
+
+    padding: 40px;
+    max-width: 90%;
+  }
+
+  label {
+    font-size: 1.5em;
+  }
+
+  input[type="email"], input[type="password"] {
+    font-size: 0.9em;
+    padding: 8px;
+  }
+
+  button[type="submit"] {
+    font-size: 1.5em;
+    padding: 8px;
+  }
+}
+
+/* Extra small screens (phones, 576px and up) */
+@media (max-width: 576px) {
+  .auth-container {
+    margin-top:50%;
+
+    padding: 20px;
+    max-width: 95%;
+  }
+
+  label {
+    font-size: 1.2em;
+  }
+
+  input[type="email"], input[type="password"] {
+    font-size: 0.85em;
+    padding: 6px;
+  }
+
+  button[type="submit"] {
+    font-size: 1em;
+    padding: 6px;
+  }
+}
+
+/* Very small screens (small phones, below 576px) */
+@media (max-width: 400px) {
+  .auth-container {
+    margin-top:50%;
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  label {
+    font-size: 1.3em;
+  }
+
+  input[type="email"], input[type="password"] {
+    font-size: 0.8em;
+    padding: 5px;
+  }
+
+  button[type="submit"] {
+    font-size: 1em;
+    padding: 5px;
+  }
+}
